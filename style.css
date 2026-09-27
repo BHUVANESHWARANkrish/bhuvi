@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+}
+
+h1,li,ul{
+    display: inline;
+}
+
+ul{
+    margin-left: 70%;
+}
+
+li{
+    color: gray;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: gold;
+}
+
+li:hover{
+    color: whitesmoke;
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+}
+
+.sbar{
+    text-align: center;
+    padding: 25px;
+}
+
+.prod{
+    text-align: center;
+}
+
+.box{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+}
+
+.abt{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.cnt{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
